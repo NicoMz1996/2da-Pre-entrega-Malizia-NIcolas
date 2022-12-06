@@ -5,17 +5,17 @@
     margin: 0;
 }
 
+@media screen and (min-width: 768px) {
+    .body {
+        background-color: aquamarine;
+    }
+}
+
 body{
     background-color: rgba(190, 226, 248, 0.671);
 }
 
-header{
-    font-size: large;
-    text-align: center;
-    position: sticky;
-    height: 30%;
-    width: 30%;
-}
+
 
 
 .flex__header{
@@ -27,6 +27,14 @@ header{
     padding: 21px;
     justify-content: center;
     width: 100%;
+}
+
+@media only screen and (max-width: 280px){
+    nav ul {
+        height: 110px;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 ul{
@@ -43,6 +51,7 @@ a{
     color: whitesmoke;
     text-align: start;
 }
+
 
 img {
     object-fit: cover;
